@@ -1,0 +1,17 @@
+
+
+
+.footer {
+padding: 3rem;
+background: #050505 no-repeat center center fixed;
+background-size: cover;
+margin: 0;
+
+&__nav {
+  display: flex;
+  justify-content: space-around;
+  background: #315565;
+  margin: 0;
+  align-items: center;
+}
+}
