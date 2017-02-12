@@ -4,16 +4,16 @@
     flex-wrap: wrap;
 }
 
-.main-body {
+.lesson {
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
   padding: 1rem;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 
 .page__headline {
-  //font-style:
+  font-style: arial;
   font-size: 2rem;
   text-align: center;
   flex-direction: row;
@@ -21,25 +21,22 @@
 
 .row {
   margin: 0 auto;
+  display: flex;
   padding: 1rem;
-  background: purple;
+  //background: purple;
   flex-direction: row;
-  //justify-content: space-around;
-  flex-basis: calc(100%/ 3 - 1rem - 1rem);
-  position: absolute;
+  flex-basis: calc(100%/ 1 - 1rem - 1rem);
+  align-items: center;
 }
 
 .lesson__headline {
-  font-style: fixedsys;
+  font-style: arial;
+  margin: 0;
   font-size: 1.5rem;
-  color: black;
 
   &__paragraph {
-    display: flex;
-    //justify-content: space-around;
-    align-items: center;
+    font-style: arial;
     margin: 1rem;
-    float: left;
   }
 }
 
@@ -47,9 +44,7 @@
         display: flex;
         margin: 1rem;
         align-items: center;
-        //justify-content: space-around;
-        align-items: center;
-        position: relative;
+        //float: right;
       }
 
 //.lesson__pic {
