@@ -1,0 +1,12 @@
+
+.container {
+  width: 100%;
+}
+
+/* applies only to screens with a minimum width of 1024px */
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 70%;
+    margin: 0 auto;
+  }
+}
