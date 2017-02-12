@@ -10,13 +10,20 @@ margin: 0;
 &__nav {
   display: flex;
   justify-content: space-around;
-  margin: 1rem;
+  margin: 0;
   padding: 0;
-  align-items: center;
 }
 }
 
 .social__icons {
-      max-width: 5rem;
-      align-items: center;
+      display: flex;
+      justify-content: space-around;
+}
+
+.social__icons-facebook {
+    height: 4rem;
+ }
+
+.social__icons-twitter {
+  height: 4rem;
 }
