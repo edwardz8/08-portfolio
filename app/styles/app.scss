@@ -1,6 +1,14 @@
 // @import 'yoga-sass/assets/yoga';
 // @import 'normalize-css/normalize';
 
+//const stylePaths = [
+//'app/styles',
+//‘node_modules/font-awesome/scss',
+//'node_modules/normalize-css',
+//'node_modules/yoga-sass/assets',
+//];
+
+
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 @import 'font-awesome/scss/font-awesome';
 @import 'box-sizing';
