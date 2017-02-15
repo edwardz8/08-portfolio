@@ -18,17 +18,36 @@ img {
 }
 
 
-.grid {
+.grid__city {
     display: flex;
     flex-wrap: wrap;
 }
 
 /*Photos*/
 
-.grid__item {
-   margin: 2rem;
-   flex-basis: calc(100% / 2 - 2rem - 2rem);
+.grid__item__city {
+  margin: 0 auto;
+   flex-basis: calc(100% / 2 - 1rem - 1rem);
    flex-grow: 1;
+   flex-direction: row;
+   display: flex;
+  background: purple;
+   align-items: center;
+   justify-content: space-around;
 }
 
-//.photo__one {}
+.photo__one {
+  display: flex;
+}
+
+.photo__two {
+  display: flex;
+}
+
+.photo__three {
+  display: flex;
+}
+
+.photo__four {
+  display: flex;
+}
