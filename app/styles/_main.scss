@@ -1,0 +1,54 @@
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.lesson {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 1rem;
+  justify-content: space-between;
+}
+
+.page__headline {
+  font-style: arial;
+  font-size: 2rem;
+  text-align: center;
+  flex-direction: row;
+}
+
+.row {
+  margin: 0 auto;
+  padding: 3rem;
+  display: flex;
+  padding: 1rem;
+  //background: purple;
+  flex-direction: row;
+  flex-basis: calc(100%/ 1 - 1rem - 1rem);
+  align-items: center;
+}
+
+
+.lesson {
+  margin: 0 2rem;
+
+
+&__headline {
+  font-style: arial;
+  margin: 0;
+  font-size: 1.5rem;
+
+  &__paragraph {
+    font-style: arial;
+    margin: 1rem;
+  }
+}
+}
+
+.right__item {
+        display: flex;
+        margin: 1rem;
+        align-items: center;
+      }

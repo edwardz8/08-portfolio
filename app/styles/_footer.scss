@@ -1,0 +1,46 @@
+
+
+
+.footer {
+  padding: 3rem;
+  background: #050505 no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+
+&__nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+}
+
+.social__icons {
+      display: flex;
+      justify-content: space-around;
+}
+
+.social__icons-facebook {
+    height: 4rem;
+ }
+
+.social__icons-twitter {
+  height: 4.5rem;
+  margin-left: 1rem;
+
+}
+
+.social__icons-three {
+  height: 4rem;
+  margin-left: 1rem;
+}
+
+.social__icons-github {
+  height: 5rem;
+  margin-left: 1rem;
+}
+
+.social__icons-linked {
+  height: 4.5rem;
+  margin-left: 1rem;
+}
