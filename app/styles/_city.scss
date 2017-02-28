@@ -31,24 +31,36 @@ img {
    flex-grow: 1;
    flex-direction: row;
    display: flex;
-   //background: purple;
-   align-items: center;
    justify-content: space-around;
    padding: 1rem;
 }
 
 .photo__one {
-  display: flex;
+
+.photo__one-text {
+  position: absolute;
+  color: white;
+  margin: 3rem;
+  font-size: 1.5rem;
+  //display: none;
 }
+
+}
+
 
 .photo__two {
-  display: flex;
+
+  .photo__two-text {
+    position: absolute;
+    color: white;
+    margin: 3rem;
+    font-size: 1.5rem;
+    //display: none;
+
+  }
 }
 
-.photo__three {
-  display: flex;
-}
 
-.photo__four {
-  display: flex;
-}
+.photo__three {}
+
+.photo__four {}

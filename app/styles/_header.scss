@@ -3,7 +3,7 @@
   background: #428f8b no-repeat center center fixed;
   background-size: cover;
   margin: 0;
-  text-decoration: none;
+  //text-decoration: none;
 }
 
 .nav {
@@ -36,12 +36,19 @@
   padding-right: 3rem;
 
 
+
   &__item {
     margin: 1rem;
     font-size: bold;
     color: white;
+
   }
 }
+}
+
+&:hover {
+  color: #428f8b;
+  text-decoration: none;
 }
 
 
